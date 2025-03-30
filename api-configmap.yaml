@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap # https://kubernetes.io/docs/concepts/configuration/configmap/
+metadata:
+  name: synergychat-api-configmap
+  namespace: default
+data:
+  API_PORT: "8080"
+
